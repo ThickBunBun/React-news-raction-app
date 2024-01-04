@@ -1,0 +1,11 @@
+[
+  {
+    "newsId":0,
+    "newsTittle":"Tittle"
+    "newsText":"SomeText",
+    "comments":{
+      "commentId":0,
+      "commentText":"CommentText"
+    }
+  }
+]
