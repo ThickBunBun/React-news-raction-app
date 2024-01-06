@@ -11,13 +11,13 @@ export function useOnlineStatus() {
     function handleOffline() {
       setIsOnline(false);
     }
-    window.addEventListener('online', handleOnline);
-    window.addEventListener('offline', handleOffline);
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
     //unmounting function that clears event listeners
     return () => {
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
     };
   }, []);
-    return isOnline;
+  return isOnline;
 }
