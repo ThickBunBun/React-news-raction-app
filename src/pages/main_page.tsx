@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import NewsComments from "./components/NewsComments";
-import UserComment from "./components/UserComment";
-import NewsSnatch from "./components/NewsSnatch";
-import { NewsType, CommentType } from "./components/Types";
+import NewsComments from "../components/NewsComments";
+import UserComment from "../components/UserComment";
+import NewsSnatch from "../components/NewsSnatch";
+import { NewsType, CommentType } from "../components/Types";
 
 // Main news component
 function NewsPart() {
@@ -42,7 +42,7 @@ function NewsPart() {
 }
 
 // root component
-export default function App() {
+export default function MainPage() {
   return (
     <>
       <div className="bg-gray-800 ">
