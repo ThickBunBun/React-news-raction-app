@@ -77,7 +77,7 @@ export default function UserComment({
   }
   return (
     <>
-      <div className="flex flex-wrap rounded-lg ml-3 mr-3 mb-3 bg-gray-700">
+      <div className="flex flex-wrap backdrop-blur-md bg-gray-700/40 rounded-lg ml-3 mr-3 mb-3 ">
         <textarea
           onKeyDown={(event) => {
             if (event.key === "Enter" && event.shiftKey === false) {
@@ -85,7 +85,7 @@ export default function UserComment({
               AddingComments();
             }
           }}
-          className="flex-auto bg-gray-700 rounded-lg text-gray-100 border-0 outline-none resize-none shadow-none focus:min-h-60 min-w-10 m-2 pr-2 pl-2 pt-1 whitespace-pre-line"
+          className="flex-auto bg-transparent rounded-lg text-gray-100 border-0 outline-none resize-none shadow-none focus:min-h-60 min-w-10 m-2 pr-2 pl-2 pt-1 whitespace-pre-line"
           type="text"
           placeholder="Comment"
           value={comment}

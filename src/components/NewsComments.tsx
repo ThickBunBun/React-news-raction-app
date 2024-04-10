@@ -51,7 +51,7 @@ export default function NewsComments({
   return (
     <>
       <div className="flex">
-        <div className="flex-1 bg-gray-700 whitespace-pre-line overflow-y-scroll min-h-20 max-h-20 focus:bg-green-700  ml-1 mr-1 pt-2 pr-2 pl-2 rounded-lg mt-3 mb-3">
+        <div className="flex-1 whitespace-pre-line overflow-y-scroll min-h-20 max-h-40 backdrop-blur-md bg-gray-700/40 ml-1 mr-1 pt-2 pr-2 pl-2 rounded-lg mt-3 mb-3">
           {listOfComments}
         </div>
       </div>

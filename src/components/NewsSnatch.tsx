@@ -39,7 +39,7 @@ export default function NewsSnatch({ HandleNewNews, news }: NewsSnatchProps) {
   }
   return (
     <>
-      <div className="grid grid-cols-1 mt-3">
+      <div className="grid grid-cols-1 mt-3 backdrop-blur-md bg-gray-700/40 rounded-lg">
         <div className="justify-self-center">
           <h1 className="text-4xl font-bold p-2 text-slate-200">
             {news ? news?.tittle : "Get angry now"}

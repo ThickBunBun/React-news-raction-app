@@ -18,7 +18,7 @@ function NewsPart() {
       <div className="grid grid-cols-1 h-lvh">
         <a
           className="justify-self-end font-bold bg-sky-600 hover:bg-sky-500 max-h-10 rounded-full mt-1 mb-2 mr-2 p-2 text-gray-100"
-          href=""
+          href="/login"
         >
           Login/Registrate
         </a>
@@ -45,7 +45,7 @@ function NewsPart() {
 export default function MainPage() {
   return (
     <>
-      <div className="bg-gray-800 ">
+      <div className="h-screen bg-gradient-to-b from-gray-800 from-10% via-sky-950 via-40% to-gray-900 to-90% ">
         <div className="ml-8 mr-8">
           <NewsPart />
         </div>
