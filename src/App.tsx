@@ -14,7 +14,9 @@ export default function App() {
 
   return (
     <>
-      <MainPage />
+      <div className="h-full overflow-auto bg-gradient-to-b from-gray-800 from-10% via-sky-950 via-40% to-gray-900 to-90%">
+        <MainPage />
+      </div>
     </>
   );
 }
