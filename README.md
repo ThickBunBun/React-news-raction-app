@@ -9,5 +9,7 @@ As of now user is able to generate random story snippets taken from the Dmummy A
 - Comments storred in local browser storage
 - Project written using React and TypeScript
 - Logging page was scrapped due to time limitations
+
+Project is hosted [here](https://thickbunbun.github.io/React-news-raction-app/)
 ##
 ![2024-01-31_13-35](https://github.com/ThickBunBun/React-news-raction-app/assets/81237388/ba74f4ad-0875-40dc-86a5-84072fcac68f)
