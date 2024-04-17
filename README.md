@@ -1,7 +1,6 @@
 ![Get_angry_now_😡](https://github.com/ThickBunBun/React-news-raction-app/assets/81237388/3bc8b821-5fe4-4b34-909b-b1ddf2d416cd)
 
-![Static Badge](https://img.shields.io/badge/React-black?logo=React)
-![Static Badge](https://img.shields.io/badge/TypeScript-black?logo=TypeScript)
+![Static Badge](https://img.shields.io/badge/React-black?logo=React)![Static Badge](https://img.shields.io/badge/TypeScript-black?logo=TypeScript)
 
 ## About
 This react SPA was originaly a demo for news generating app. 
